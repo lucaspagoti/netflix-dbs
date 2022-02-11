@@ -196,7 +196,7 @@ header .logo {
 
 
 .play {
-    position: absolute;
+    
     bottom: 100px;
     left: 100px;
     display: inline-flex;
