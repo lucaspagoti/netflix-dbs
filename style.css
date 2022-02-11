@@ -196,9 +196,7 @@ header .logo {
 
 
 .play {
-    
-    bottom: 100px;
-    left: 100px;
+    margin-top: 15px;
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
