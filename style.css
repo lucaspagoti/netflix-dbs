@@ -100,6 +100,7 @@ header .logo {
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: color;
+    
 }
 
 .banner .bg { 
@@ -225,4 +226,58 @@ header .logo {
 
 .modal-dialog {
     max-width: 900px;
+}
+
+
+@media (max-width: 991px) {
+    header {
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+
+    .opacity {
+        padding: 100px 50px;
+
+    }
+
+    .banner .play {
+        left: 50px;
+        font-size: 1em;
+    }
+    
+    .play img {
+        margin-right: 10px;
+        max-width: 40;
+    }
+} 
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    .search {
+        position: relative;
+        width: calc(100% - 20px);
+        height: 40px;
+    }
+
+    .opacity {
+        padding: 220px 20px 100px;
+    }
+
+    .banner .play {
+        left: 20px;
+        font-size: 1em;
+        bottom: 30px;
+    }
+
+
 }
